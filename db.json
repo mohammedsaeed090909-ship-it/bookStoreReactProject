@@ -1,0 +1,663 @@
+{
+"books": [
+    {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "price": 250,
+    "category": "Self Development",
+    "image": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg",
+    "description": "A practical guide to building good habits, breaking bad ones, and making small changes that lead to remarkable results.",
+    "rating": { "rate": 4.8, "count": 350 }
+    },
+    {
+    "id": 2,
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "price": 220,
+    "category": "Self Development",
+    "image": "https://covers.openlibrary.org/b/isbn/9781982137274-M.jpg",
+    "description": "A powerful approach to personal and professional effectiveness based on timeless principles.",
+    "rating": { "rate": 4.7, "count": 280 }
+    },
+    {
+    "id": 3,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "price": 180,
+    "category": "Finance",
+    "image": "https://covers.openlibrary.org/b/isbn/9781612681139-M.jpg",
+    "description": "A personal finance classic that explores different approaches to money, investing, and financial independence.",
+    "rating": { "rate": 4.6, "count": 410 }
+    },
+    {
+    "id": 4,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "price": 230,
+    "category": "Finance",
+    "image": "https://covers.openlibrary.org/b/isbn/9780857197689-M.jpg",
+    "description": "Timeless lessons about wealth, greed, happiness, and the psychology behind financial decisions.",
+    "rating": { "rate": 4.8, "count": 390 }
+    },
+    {
+    "id": 5,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "price": 150,
+    "category": "Fiction",
+    "image": "https://covers.openlibrary.org/b/isbn/9780062315007-M.jpg",
+    "description": "A philosophical novel about following your dreams and discovering your personal legend.",
+    "rating": { "rate": 4.7, "count": 520 }
+    },
+    {
+    "id": 6,
+    "title": "1984",
+    "author": "George Orwell",
+    "price": 170,
+    "category": "Fiction",
+    "image": "https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg",
+    "description": "A dystopian novel about surveillance, totalitarianism, and the struggle for individual freedom.",
+    "rating": { "rate": 4.9, "count": 620 }
+    },
+    {
+    "id": 7,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "price": 140,
+    "category": "Classic",
+    "image": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg",
+    "description": "A classic American novel exploring wealth, love, ambition, and the American Dream.",
+    "rating": { "rate": 4.5, "count": 310 }
+    },
+    {
+    "id": 8,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "price": 190,
+    "category": "Classic",
+    "image": "https://covers.openlibrary.org/b/isbn/9780061120084-M.jpg",
+    "description": "A powerful story about justice, racism, morality, and childhood in the American South.",
+    "rating": { "rate": 4.9, "count": 570 }
+    },
+    {
+    "id": 9,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "price": 280,
+    "category": "Fantasy",
+    "image": "https://covers.openlibrary.org/b/isbn/9780590353427-M.jpg",
+    "description": "The first adventure of Harry Potter as he discovers the magical world and begins his journey at Hogwarts.",
+    "rating": { "rate": 4.9, "count": 850 }
+    },
+    {
+    "id": 10,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "price": 210,
+    "category": "Fantasy",
+    "image": "https://covers.openlibrary.org/b/isbn/9780547928227-M.jpg",
+    "description": "Bilbo Baggins joins a group of dwarves on an unforgettable adventure to reclaim their homeland.",
+    "rating": { "rate": 4.8, "count": 490 }
+    },
+    {
+    "id": 11,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 450,
+    "category": "Programming",
+    "image": "https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg",
+    "description": "A practical guide to writing clean, readable, maintainable, and professional software code.",
+    "rating": { "rate": 4.8, "count": 260 }
+    },
+    {
+    "id": 12,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "price": 350,
+    "category": "Programming",
+    "image": "https://covers.openlibrary.org/b/isbn/9780596517748-M.jpg",
+    "description": "An influential guide to the most useful and powerful features of JavaScript.",
+    "rating": { "rate": 4.4, "count": 180 }
+    },
+    {
+    "id": 13,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "price": 390,
+    "category": "Programming",
+    "image": "https://covers.openlibrary.org/b/isbn/9781593279509-M.jpg",
+    "description": "A modern introduction to programming with JavaScript, covering fundamentals and advanced concepts.",
+    "rating": { "rate": 4.7, "count": 240 }
+    },
+    {
+    "id": 14,
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas & Andrew Hunt",
+    "price": 420,
+    "category": "Programming",
+    "image": "https://covers.openlibrary.org/b/isbn/9780135957059-M.jpg",
+    "description": "Classic and practical advice for becoming a better software developer and writing better software.",
+    "rating": { "rate": 4.9, "count": 330 }
+    },
+    {
+    "id": 15,
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "price": 210,
+    "category": "Adventure",
+    "image": "https://covers.openlibrary.org/b/isbn/9780156027328-M.jpg",
+    "description": "An unforgettable adventure about survival, faith, imagination, and a young boy stranded at sea.",
+    "rating": { "rate": 4.7, "count": 420 }
+    },
+    {
+    "id": 16,
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "price": 200,
+    "category": "Mystery",
+    "image": "https://covers.openlibrary.org/b/isbn/9780307474278-M.jpg",
+    "description": "A thrilling mystery involving ancient secrets, hidden symbols, and a dangerous conspiracy.",
+    "rating": { "rate": 4.5, "count": 370 }
+    },
+    {
+    "id": 17,
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "price": 240,
+    "category": "Mystery",
+    "image": "https://covers.openlibrary.org/b/isbn/9781250301697-M.jpg",
+    "description": "A psychological thriller about a woman who suddenly stops speaking after a shocking crime.",
+    "rating": { "rate": 4.6, "count": 450 }
+    },
+    {
+    "id": 18,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "price": 300,
+    "category": "History",
+    "image": "https://covers.openlibrary.org/b/isbn/9780062316097-M.jpg",
+    "description": "A broad exploration of human history, from early humans to modern civilization.",
+    "rating": { "rate": 4.8, "count": 600 }
+    },
+    {
+    "id": 19,
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "price": 160,
+    "category": "Self Development",
+    "image": "https://covers.openlibrary.org/b/isbn/9781585424337-M.jpg",
+    "description": "A classic book about success, mindset, ambition, and achieving personal goals.",
+    "rating": { "rate": 4.6, "count": 290 }
+    },
+    {
+    "id": 20,
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "price": 260,
+    "category": "Self Development",
+    "image": "https://covers.openlibrary.org/b/isbn/9781577314806-M.jpg",
+    "description": "A guide to mindfulness and living in the present moment while reducing unnecessary mental suffering.",
+    "rating": { "rate": 4.7, "count": 340 }
+    },
+    {
+    "id": 21,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "price": 180,
+    "category": "Classic",
+    "image": "https://covers.openlibrary.org/b/isbn/9780316769488-M.jpg",
+    "description": "A classic coming-of-age novel following Holden Caulfield as he struggles with growing up.",
+    "rating": { "rate": 4.5, "count": 280 }
+    },
+    {
+    "id": 22,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "price": 170,
+    "category": "Romance",
+    "image": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg",
+    "description": "A timeless romance exploring love, family, social expectations, and misunderstandings.",
+    "rating": { "rate": 4.8, "count": 510 }
+    },
+    {
+    "id": 23,
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "price": 130,
+    "category": "Children",
+    "image": "https://covers.openlibrary.org/b/isbn/9780156012195-M.jpg",
+    "description": "A poetic tale about friendship, love, loneliness, and seeing beyond appearances.",
+    "rating": { "rate": 4.9, "count": 720 }
+    },
+    {
+    "id": 24,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "price": 320,
+    "category": "Science Fiction",
+    "image": "https://covers.openlibrary.org/b/isbn/9780441172719-M.jpg",
+    "description": "An epic science fiction story about politics, power, destiny, and survival on a desert planet.",
+    "rating": { "rate": 4.8, "count": 580 }
+    },
+    {
+    "id": 25,
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "price": 240,
+    "category": "Young Adult",
+    "image": "https://covers.openlibrary.org/b/isbn/9780439023481-M.jpg",
+    "description": "Katniss Everdeen is forced to compete in a deadly televised competition.",
+    "rating": { "rate": 4.7, "count": 610 }
+    },
+    {
+    "id": 26,
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "price": 230,
+    "category": "Historical Fiction",
+    "image": "https://covers.openlibrary.org/b/isbn/9780375842207-M.jpg",
+    "description": "A moving story about a young girl who discovers the power of books during World War II.",
+    "rating": { "rate": 4.8, "count": 430 }
+    },
+    {
+    "id": 27,
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "price": 220,
+    "category": "Drama",
+    "image": "https://covers.openlibrary.org/b/isbn/9781594631931-M.jpg",
+    "description": "A powerful story of friendship, betrayal, guilt, and redemption set in Afghanistan.",
+    "rating": { "rate": 4.8, "count": 540 }
+    },
+    {
+    "id": 28,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "price": 290,
+    "category": "Science",
+    "image": "https://covers.openlibrary.org/b/isbn/9780553380163-M.jpg",
+    "description": "An accessible introduction to major ideas about the universe, time, space, and physics.",
+    "rating": { "rate": 4.6, "count": 360 }
+    },
+    {
+    "id": 29,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "price": 310,
+    "category": "Psychology",
+    "image": "https://covers.openlibrary.org/b/isbn/9780374533557-M.jpg",
+    "description": "An exploration of the two systems that influence how humans think and make decisions.",
+    "rating": { "rate": 4.7, "count": 490 }
+    },
+    {
+    "id": 30,
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "price": 190,
+    "category": "Psychology",
+    "image": "https://covers.openlibrary.org/b/isbn/9780807014271-M.jpg",
+    "description": "A profound reflection on finding meaning and purpose even during extreme suffering.",
+    "rating": { "rate": 4.9, "count": 680 }
+    },
+    {
+    "id": 31,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "price": 260,
+    "category": "Productivity",
+    "image": "https://covers.openlibrary.org/b/isbn/9781455586691-M.jpg",
+    "description": "Strategies for focusing without distraction and producing valuable work in a distracted world.",
+    "rating": { "rate": 4.7, "count": 320 }
+    },
+    {
+    "id": 32,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "price": 250,
+    "category": "Self Development",
+    "image": "https://covers.openlibrary.org/b/isbn/9780062457714-M.jpg",
+    "description": "A direct and unconventional approach to dealing with problems, values, and personal growth.",
+    "rating": { "rate": 4.5, "count": 550 }
+    },
+    {
+    "id": 33,
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "price": 280,
+    "category": "Business",
+    "image": "https://covers.openlibrary.org/b/isbn/9780804139298-M.jpg",
+    "description": "Ideas about startups, innovation, competition, and creating something genuinely new.",
+    "rating": { "rate": 4.6, "count": 270 }
+    },
+    {
+    "id": 34,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "price": 270,
+    "category": "Business",
+    "image": "https://covers.openlibrary.org/b/isbn/9780307887894-M.jpg",
+    "description": "A methodology for developing businesses and products through experimentation and validated learning.",
+    "rating": { "rate": 4.6, "count": 310 }
+    },
+    {
+    "id": 35,
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "price": 340,
+    "category": "Biography",
+    "image": "https://covers.openlibrary.org/b/isbn/9781451648539-M.jpg",
+    "description": "A detailed biography exploring the life, personality, and career of Steve Jobs.",
+    "rating": { "rate": 4.7, "count": 420 }
+    },
+    {
+    "id": 36,
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "price": 300,
+    "category": "Biography",
+    "image": "https://covers.openlibrary.org/b/isbn/9781524763138-M.jpg",
+    "description": "Michelle Obama's personal memoir covering her childhood, career, family, and public life.",
+    "rating": { "rate": 4.8, "count": 470 }
+    },
+    {
+    "id": 37,
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "price": 120,
+    "category": "Strategy",
+    "image": "https://covers.openlibrary.org/b/isbn/9781590302255-M.jpg",
+    "description": "An ancient classic about strategy, leadership, planning, and conflict.",
+    "rating": { "rate": 4.7, "count": 390 }
+    },
+    {
+    "id": 38,
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "price": 160,
+    "category": "Philosophy",
+    "image": "https://covers.openlibrary.org/b/isbn/9780812968255-M.jpg",
+    "description": "Personal reflections from the Roman emperor on discipline, virtue, resilience, and living well.",
+    "rating": { "rate": 4.7, "count": 350 }
+    },
+    {
+    "id": 39,
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "price": 240,
+    "category": "Self Development",
+    "image": "https://covers.openlibrary.org/b/isbn/9780812981605-M.jpg",
+    "description": "An exploration of how habits work and how understanding them can transform our lives.",
+    "rating": { "rate": 4.6, "count": 410 }
+    },
+    {
+    "id": 40,
+    "title": "Start with Why",
+    "author": "Simon Sinek",
+    "price": 230,
+    "category": "Business",
+    "image": "https://covers.openlibrary.org/b/isbn/9781591842804-M.jpg",
+    "description": "A guide to inspiring people and organizations by clearly communicating the purpose behind what they do.",
+    "rating": { "rate": 4.6, "count": 290 }
+},{
+      "id": 41,
+      "title": "Atomic Habits Workbook",
+      "author": "James Clear",
+      "price": 270,
+      "category": "Self Development",
+      "image": "https://covers.openlibrary.org/b/isbn/9780593231702-M.jpg",
+      "description": "A practical workbook with exercises designed to help readers apply the ideas of Atomic Habits in daily life.",
+      "rating": {
+        "rate": 4.6,
+        "count": 220
+      }
+    },
+    {
+      "id": 42,
+      "title": "The 5 AM Club",
+      "author": "Robin Sharma",
+      "price": 240,
+      "category": "Self Development",
+      "image": "https://covers.openlibrary.org/b/isbn/9781443456623-M.jpg",
+      "description": "A motivational story about building powerful routines and using the early hours to improve productivity and personal growth.",
+      "rating": {
+        "rate": 4.5,
+        "count": 300
+      }
+    },
+    {
+      "id": 43,
+      "title": "The Millionaire Fastlane",
+      "author": "MJ DeMarco",
+      "price": 290,
+      "category": "Finance",
+      "image": "https://covers.openlibrary.org/b/isbn/9780984358106-M.jpg",
+      "description": "A different perspective on wealth creation, entrepreneurship, financial freedom, and building scalable businesses.",
+      "rating": {
+        "rate": 4.5,
+        "count": 260
+      }
+    },
+    {
+      "id": 44,
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "price": 360,
+      "category": "Finance",
+      "image": "https://covers.openlibrary.org/b/isbn/9780060555665-M.jpg",
+      "description": "A classic guide to value investing, risk management, and making disciplined long-term investment decisions.",
+      "rating": {
+        "rate": 4.7,
+        "count": 430
+      }
+    },
+    {
+      "id": 45,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "price": 230,
+      "category": "Fiction",
+      "image": "https://covers.openlibrary.org/b/isbn/9780525559474-M.jpg",
+      "description": "A thought-provoking novel about choices, regret, possibility, and the lives we might have lived.",
+      "rating": {
+        "rate": 4.6,
+        "count": 510
+      }
+    },
+    {
+      "id": 46,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "price": 145,
+      "category": "Classic",
+      "image": "https://covers.openlibrary.org/b/isbn/9780451526342-M.jpg",
+      "description": "A powerful political allegory about power, inequality, propaganda, and the corruption of ideals.",
+      "rating": {
+        "rate": 4.8,
+        "count": 540
+      }
+    },
+    {
+      "id": 47,
+      "title": "The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "price": 260,
+      "category": "Fantasy",
+      "image": "https://covers.openlibrary.org/b/isbn/9780547928210-M.jpg",
+      "description": "The first part of an epic fantasy journey as Frodo begins his dangerous quest to destroy the One Ring.",
+      "rating": {
+        "rate": 4.9,
+        "count": 680
+      }
+    },
+    {
+      "id": 48,
+      "title": "Mistborn",
+      "author": "Brandon Sanderson",
+      "price": 280,
+      "category": "Fantasy",
+      "image": "https://covers.openlibrary.org/b/isbn/9780765311788-M.jpg",
+      "description": "An epic fantasy about a young thief who discovers extraordinary powers and joins a rebellion against a powerful ruler.",
+      "rating": {
+        "rate": 4.7,
+        "count": 420
+      }
+    },
+    {
+      "id": 49,
+      "title": "You Don't Know JS Yet",
+      "author": "Kyle Simpson",
+      "price": 320,
+      "category": "Programming",
+      "image": "https://covers.openlibrary.org/b/isbn/9781091210094-M.jpg",
+      "description": "A modern JavaScript series that explores the language deeply and helps developers build stronger fundamentals.",
+      "rating": {
+        "rate": 4.8,
+        "count": 190
+      }
+    },
+    {
+      "id": 50,
+      "title": "Don't Make Me Think",
+      "author": "Steve Krug",
+      "price": 300,
+      "category": "Programming",
+      "image": "https://covers.openlibrary.org/b/isbn/9780321344755-M.jpg",
+      "description": "A practical guide to creating simple, intuitive, and user-friendly websites and interfaces.",
+      "rating": {
+        "rate": 4.7,
+        "count": 230
+      }
+    },
+    {
+      "id": 51,
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "price": 155,
+      "category": "Adventure",
+      "image": "https://covers.openlibrary.org/b/isbn/9780684830490-M.jpg",
+      "description": "A classic story of an old fisherman's struggle, determination, courage, and connection with the sea.",
+      "rating": {
+        "rate": 4.7,
+        "count": 390
+      }
+    },
+    {
+      "id": 52,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "price": 250,
+      "category": "Mystery",
+      "image": "https://covers.openlibrary.org/b/isbn/9780553418361-M.jpg",
+      "description": "A psychological mystery filled with secrets, deception, unreliable perspectives, and unexpected twists.",
+      "rating": {
+        "rate": 4.6,
+        "count": 480
+      }
+    },
+    {
+      "id": 53,
+      "title": "And Then There Were None",
+      "author": "Agatha Christie",
+      "price": 190,
+      "category": "Mystery",
+      "image": "https://covers.openlibrary.org/b/isbn/9780062073488-M.jpg",
+      "description": "Ten strangers are brought together on an isolated island where a mysterious sequence of deaths begins.",
+      "rating": {
+        "rate": 4.8,
+        "count": 620
+      }
+    },
+    {
+      "id": 54,
+      "title": "Guns, Germs, and Steel",
+      "author": "Jared Diamond",
+      "price": 310,
+      "category": "History",
+      "image": "https://covers.openlibrary.org/b/isbn/9780393317558-M.jpg",
+      "description": "An exploration of geography, technology, agriculture, and other forces that shaped human societies.",
+      "rating": {
+        "rate": 4.5,
+        "count": 340
+      }
+    },
+    {
+      "id": 55,
+      "title": "The 48 Laws of Power",
+      "author": "Robert Greene",
+      "price": 330,
+      "category": "Psychology",
+      "image": "https://covers.openlibrary.org/b/isbn/9780140280197-M.jpg",
+      "description": "A study of power, strategy, influence, and human behavior through historical examples and observations.",
+      "rating": {
+        "rate": 4.5,
+        "count": 590
+      }
+    },
+    {
+      "id": 56,
+      "title": "Influence",
+      "author": "Robert B. Cialdini",
+      "price": 295,
+      "category": "Psychology",
+      "image": "https://covers.openlibrary.org/b/isbn/9780061241895-M.jpg",
+      "description": "An introduction to the psychological principles that influence decisions, persuasion, and human behavior.",
+      "rating": {
+        "rate": 4.7,
+        "count": 410
+      }
+    },
+    {
+      "id": 57,
+      "title": "The 4-Hour Workweek",
+      "author": "Timothy Ferriss",
+      "price": 285,
+      "category": "Productivity",
+      "image": "https://covers.openlibrary.org/b/isbn/9780307465351-M.jpg",
+      "description": "Ideas for redesigning work, improving efficiency, and creating more freedom through smart systems.",
+      "rating": {
+        "rate": 4.4,
+        "count": 370
+      }
+    },
+    {
+      "id": 58,
+      "title": "Good to Great",
+      "author": "Jim Collins",
+      "price": 300,
+      "category": "Business",
+      "image": "https://covers.openlibrary.org/b/isbn/9780066620992-M.jpg",
+      "description": "Research-based lessons about how companies move from average performance to sustained excellence.",
+      "rating": {
+        "rate": 4.6,
+        "count": 350
+      }
+    },
+    {
+      "id": 59,
+      "title": "The Hard Thing About Hard Things",
+      "author": "Ben Horowitz",
+      "price": 320,
+      "category": "Business",
+      "image": "https://covers.openlibrary.org/b/isbn/9780062273208-M.jpg",
+      "description": "Practical lessons about building and managing companies while dealing with difficult entrepreneurial challenges.",
+      "rating": {
+        "rate": 4.7,
+        "count": 330
+      }
+    },
+    {
+      "id": 60,
+      "title": "Long Walk to Freedom",
+      "author": "Nelson Mandela",
+      "price": 340,
+      "category": "Biography",
+      "image": "https://covers.openlibrary.org/b/isbn/9780316548182-M.jpg",
+      "description": "Nelson Mandela's autobiography describing his childhood, political journey, imprisonment, and leadership.",
+      "rating": {
+        "rate": 4.8,
+        "count": 460
+      }
+    }
+  ]
+}

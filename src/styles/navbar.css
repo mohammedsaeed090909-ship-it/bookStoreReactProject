@@ -1,0 +1,136 @@
+
+/* Navbar */
+.main-navbar {
+  height: 80px;
+  background-color: var(--color-white) !important;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.main-navbar .navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.main-navbar .nav-link {
+  color: var(--color-muted);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 6px;
+  transition: color 0.2s ease;
+}
+
+.main-navbar .nav-link:hover {
+  color: var(--color-text);
+}
+.main-navbar form {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: 9999px;
+  padding: 4px;
+  box-shadow: var(--shadow-soft);
+}
+
+.main-navbar form .form-control {
+  border: none;
+  box-shadow: none;
+  border-radius: 9999px;
+  font-size: 14px;
+  padding-left: 16px;
+}
+
+.main-navbar form .form-control:focus {
+  box-shadow: none;
+}
+
+.main-navbar form button {
+  border: none;
+  border-radius: 9999px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-navbar form button:hover {
+  background-color: var(--color-primary-dark);
+}
+.main-navbar .badge {
+  background-color: var(--color-primary) !important;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 7px;
+}
+
+
+
+
+.home-hero {
+  min-height: calc(100vh - 80px);
+  padding-top: 80px;
+}
+
+.home-hero h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -1px;
+  max-width: 550px;
+  margin-bottom: 24px;
+}
+
+.home-hero p {
+  color: var(--color-muted);
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-bottom: 28px;
+}
+
+.home-hero .btn {
+  border: none;
+  border-radius: 9999px;
+  background-color: var(--color-text);
+  color: var(--color-white);
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home-hero .btn:hover {
+  background-color: #000;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .main-navbar {
+    height: auto;
+    min-height: 70px;
+  }
+
+  .home-hero {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: auto;
+  }
+
+  .home-hero h1 {
+    font-size: 36px;
+  }
+
+  .home-hero p {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+}

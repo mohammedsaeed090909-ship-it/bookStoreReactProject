@@ -1,0 +1,323 @@
+
+/* =========================
+   Cart Page
+========================= */
+
+.cart-page {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+
+/* =========================
+   Cart Header
+========================= */
+
+.cart-header {
+  margin-bottom: 32px;
+}
+
+.cart-heading {
+  margin: 0 0 8px;
+
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+
+  color: #222;
+}
+
+.cart-header p {
+  margin: 0;
+
+  color: #6a6a6a;
+
+  font-size: 15px;
+}
+
+
+/* =========================
+   Empty Cart
+========================= */
+
+.empty-cart {
+  padding: 60px 20px;
+
+  text-align: center;
+
+  border: 1px solid #ebebeb;
+  border-radius: 12px;
+
+  background-color: #fff;
+}
+
+.empty-cart h2 {
+  margin-bottom: 8px;
+
+  font-size: 22px;
+  font-weight: 600;
+
+  color: #222;
+}
+
+.empty-cart p {
+  margin: 0;
+
+  color: #6a6a6a;
+
+  font-size: 14px;
+}
+
+
+/* =========================
+   Cart Table
+========================= */
+
+.cart-table {
+  margin-bottom: 32px;
+
+  vertical-align: middle;
+
+  background-color: #fff;
+
+  border: 1px solid #ebebeb;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+}
+
+.cart-table thead {
+  background-color: #f7f7f7;
+}
+
+.cart-table th {
+  padding: 16px;
+
+  color: #222;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  border-bottom: 1px solid #ebebeb;
+}
+
+.cart-table td {
+  padding: 16px;
+
+  color: #222;
+
+  font-size: 14px;
+
+  border-bottom: 1px solid #ebebeb;
+}
+
+.cart-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+/* =========================
+   Book Image
+========================= */
+
+.cart-book-image {
+  width: 60px;
+  height: 80px;
+
+  object-fit: contain;
+
+  padding: 4px;
+
+  border-radius: 8px;
+
+  background-color: #f7f7f7;
+}
+
+
+/* =========================
+   Quantity
+========================= */
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.quantity-btn {
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 !important;
+
+  border: 1px solid #ebebeb !important;
+  border-radius: 50% !important;
+
+  background-color: #fff !important;
+
+  color: #222 !important;
+
+  font-size: 16px !important;
+  font-weight: 500 !important;
+
+  line-height: 1;
+
+  transition: all 0.2s ease;
+}
+
+.quantity-btn:hover {
+  background-color: #f7f7f7 !important;
+
+  border-color: #222 !important;
+}
+
+.quantity-value {
+  min-width: 24px;
+
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  color: #222;
+}
+
+
+/* =========================
+   Delete Button
+========================= */
+
+.delete-btn {
+  border: none !important;
+  border-radius: 9999px !important;
+
+  background-color: #fff !important;
+
+  color: #222 !important;
+
+  font-size: 13px !important;
+  font-weight: 500 !important;
+
+  padding: 7px 14px !important;
+
+  transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #f7f7f7 !important;
+
+  color: #d00 !important;
+}
+
+
+/* =========================
+   Cart Summary
+========================= */
+
+.cart-summary {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  padding-top: 20px;
+}
+
+.cart-total {
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+.cart-total span {
+  color: #6a6a6a;
+
+  font-size: 15px;
+}
+
+.cart-total strong {
+  color: #222;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+/* =========================
+   Clear Cart
+========================= */
+
+.clear-cart-btn {
+  border: none !important;
+
+  border-radius: 9999px !important;
+
+  background-color: #222 !important;
+
+  color: #fff !important;
+
+  padding: 10px 20px !important;
+
+  font-size: 14px !important;
+  font-weight: 500 !important;
+
+  transition: background-color 0.2s ease;
+}
+
+.clear-cart-btn:hover {
+  background-color: #000 !important;
+}
+
+
+/* =========================
+   Responsive
+========================= */
+
+@media (max-width: 768px) {
+
+  .cart-page {
+    padding-top: 100px;
+  }
+
+  .cart-heading {
+    font-size: 24px;
+  }
+
+  .cart-table {
+    display: block;
+
+    overflow-x: auto;
+
+    white-space: nowrap;
+  }
+
+  .cart-table th,
+  .cart-table td {
+    padding: 12px;
+  }
+
+  .cart-summary {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .cart-total {
+    justify-content: space-between;
+  }
+
+  .clear-cart-btn {
+    width: 100%;
+  }
+}
