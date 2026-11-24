@@ -7,6 +7,7 @@ import Cart from "./pages/Cart";
 import Categories from "./pages/Categories";
 import "./App.css";
 import Footer from "./components/footer";
+import Register from "./components/Register";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/books/:id" element={<BookDetails/>}/> 
         <Route path="/cart" element={<Cart/>}/> 
         <Route path="/categories" element={<Categories/>}/> 
+        <Route path="/register" element={<Register/>}/> 
       </Routes>
       <Footer/>
     </div>

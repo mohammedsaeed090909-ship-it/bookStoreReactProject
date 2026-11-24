@@ -2,6 +2,12 @@
 
 A responsive bookstore web application built with React, Redux Toolkit, and React Router. Users can explore books, filter them by category, view book details, and manage their shopping cart.
 
+## 📸 Screenshots
+
+![Book Store](./public/screenshots/books.png)
+
+## 🛠️ Technologies Used
+
 ## ✨ Features
 
 - Browse books from a database.
@@ -11,8 +17,6 @@ A responsive bookstore web application built with React, Redux Toolkit, and Reac
 - Add books to the shopping cart.
 - Manage cart items and quantities.
 - Responsive user interface.
-
-## 🛠️ Technologies Used
 
 - React.js
 - JavaScript (ES6+)

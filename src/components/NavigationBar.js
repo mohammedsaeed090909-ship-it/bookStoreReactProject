@@ -45,7 +45,6 @@ function NavigationBar(){
                 className="me-2"
                 aria-label="Search"
                 value={search}
-                // onChange={(e)=> setSearch(e.target.value)}
                 onChange={(e)=>setSearchInput(e.target.value)}
                 />
                 <Button type='submit' variant="outline-success">Search</Button>
